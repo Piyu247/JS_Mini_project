@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+textarea {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#preview {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+}
